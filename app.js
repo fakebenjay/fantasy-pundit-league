@@ -1,6 +1,5 @@
-// var url = `https://allorigins.us/get?url=${encodeURIComponent("http://games.espn.com/ffl/leaders?&avail=-1&search=carson%20wentz&scoringPeriodId=5&seasonId=2017&slotCategoryId=0")}&callback=?`
-//
-// $.get(url, function(response) {
-//   debugger
-//   console.log(response);
-// });
+$("document").ready(function(){
+  $.ajax({url: "http://localhost:3000/quarterbacks/carson%20wentz/5", success: function(result){
+    console.log(result)
+  }});
+});
