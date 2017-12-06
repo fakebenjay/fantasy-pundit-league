@@ -1,0 +1,2 @@
+class Quarterback < ApplicationRecord
+end

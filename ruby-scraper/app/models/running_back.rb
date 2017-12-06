@@ -1,0 +1,2 @@
+class RunningBack < ApplicationRecord
+end

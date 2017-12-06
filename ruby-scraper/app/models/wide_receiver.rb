@@ -1,0 +1,2 @@
+class WideReceiver < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class Flex < ApplicationRecord
+end
