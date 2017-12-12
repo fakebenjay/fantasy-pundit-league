@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171207124355) do
+ActiveRecord::Schema.define(version: 20171212061849) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -129,6 +129,33 @@ ActiveRecord::Schema.define(version: 20171207124355) do
     t.float "fuml"
     t.float "misc_td"
     t.float "points"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "teams", force: :cascade do |t|
+    t.string "name"
+    t.string "search_name"
+    t.integer "week"
+    t.string "qb_name"
+    t.float "qb_score"
+    t.string "rb1_name"
+    t.float "rb1_score"
+    t.string "rb2_name"
+    t.float "rb2_score"
+    t.string "wr1_name"
+    t.float "wr1_score"
+    t.string "wr2_name"
+    t.float "wr2_score"
+    t.string "te_name"
+    t.float "te_score"
+    t.string "flex_name"
+    t.float "flex_score"
+    t.string "dst_name"
+    t.float "dst_score"
+    t.string "k_name"
+    t.float "k_score"
+    t.float "total_points"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

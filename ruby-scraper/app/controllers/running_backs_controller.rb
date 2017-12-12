@@ -8,7 +8,7 @@ class RunningBacksController < ApplicationController
       table = raw_src.css('.pncPlayerRow')
 
       @running_back.name = table[0].css('.flexpop')[0].text
-      @running_back.search_name = @running_back.name.downcase
+      @running_back.search_name = @running_back.name.downcase.gsub('.', '')
       @running_back.team = table[0].css('.playertablePlayerName')[0].text.split(" ")[2].split(" ")[0]
       @running_back.position = "RB"
       @running_back.status = table[0].css('.gameStatusDiv').text

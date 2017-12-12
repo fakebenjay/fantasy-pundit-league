@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  resources :teams
   # get '/quarterbacks', to: 'quarterbacks#new'
+  get '/teams/:name/:week', to: 'teams#show'
   get '/quarterbacks/:name/:week', to: 'quarterbacks#new'
   get '/runningbacks/:name/:week', to: 'running_backs#new'
   get '/widereceivers/:name/:week', to: 'wide_receivers#new'

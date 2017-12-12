@@ -8,7 +8,7 @@ class WideReceiversController < ApplicationController
       table = raw_src.css('.pncPlayerRow')
 
       @wide_receiver.name = table[0].css('.flexpop')[0].text
-      @wide_receiver.search_name = @wide_receiver.name.downcase
+      @wide_receiver.search_name = @wide_receiver.name.downcase.gsub('.', '')
       @wide_receiver.team = table[0].css('.playertablePlayerName')[0].text.split(" ")[2].split(" ")[0]
       @wide_receiver.position = "WR"
       @wide_receiver.status = table[0].css('.gameStatusDiv').text

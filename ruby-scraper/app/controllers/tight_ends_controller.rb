@@ -8,7 +8,7 @@ class TightEndsController < ApplicationController
       table = raw_src.css('.pncPlayerRow')
 
       @tight_end.name = table[0].css('.flexpop')[0].text
-      @tight_end.search_name = @tight_end.name.downcase
+      @tight_end.search_name = @tight_end.name.downcase.gsub('.', '')
       @tight_end.team = table[0].css('.playertablePlayerName')[0].text.split(" ")[2].split(" ")[0]
       @tight_end.position = "TE"
       @tight_end.status = table[0].css('.gameStatusDiv').text

@@ -8,7 +8,7 @@ class FlexesController < ApplicationController
       table = raw_src.css('.pncPlayerRow')
 
       @flex.name = table[0].css('.flexpop')[0].text
-      @flex.search_name = @flex.name.downcase
+      @flex.search_name = @flex.name.downcase.gsub('.', '')
       @flex.team = table[0].css('.playertablePlayerName')[0].text.split(" ")[2].split(" ")[0]
       @flex.position = table[0].css('.playertablePlayerName')[0].text.split(" ")[2].split(" ")[1]
       @flex.status = table[0].css('.gameStatusDiv').text

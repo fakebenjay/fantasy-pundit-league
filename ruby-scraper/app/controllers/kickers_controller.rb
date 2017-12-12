@@ -8,7 +8,7 @@ class KickersController < ApplicationController
       table = raw_src.css('.pncPlayerRow')
 
       @kicker.name = table[0].css('.flexpop')[0].text
-      @kicker.search_name = @kicker.name.downcase
+      @kicker.search_name = @kicker.name.downcase.gsub('.', '')
       @kicker.team = table[0].css('.playertablePlayerName')[0].text.split(" ")[2].split(" ")[0]
       @kicker.position = "K"
       @kicker.status = table[0].css('.gameStatusDiv').text

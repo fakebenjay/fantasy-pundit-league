@@ -8,7 +8,7 @@ class DefensesController < ApplicationController
       table = raw_src.css('.pncPlayerRow')
 
       @defense.name = table[0].css('.flexpop')[0].text
-      @defense.search_name = @defense.name.downcase
+      @defense.search_name = @defense.name.downcase.gsub('.', '')
       @defense.position = "D/ST"
       @defense.status = table[0].css('.gameStatusDiv').text
       @defense.opp = table[0].css('.flexpop')[1].text

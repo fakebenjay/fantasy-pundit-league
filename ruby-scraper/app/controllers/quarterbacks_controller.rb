@@ -8,7 +8,7 @@ class QuarterbacksController < ApplicationController
       table = raw_src.css('.pncPlayerRow')
 
       @quarterback.name = table[0].css('.flexpop')[0].text
-      @quarterback.search_name = @quarterback.name.downcase
+      @quarterback.search_name = @quarterback.name.downcase.gsub('.', '')
       @quarterback.team = table[0].css('.playertablePlayerName')[0].text.split(" ")[2].split(" ")[0]
       @quarterback.position = "QB"
       @quarterback.status = table[0].css('.gameStatusDiv').text
