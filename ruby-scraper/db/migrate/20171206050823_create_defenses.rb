@@ -2,6 +2,7 @@ class CreateDefenses < ActiveRecord::Migration[5.1]
   def change
     create_table :defenses do |t|
       t.string :name
+      t.string :search_name
       t.string :position
       t.string :status
       t.string :opp

@@ -1,6 +1,6 @@
-class CreateRunningBacks < ActiveRecord::Migration[5.1]
+class CreateTightEnds < ActiveRecord::Migration[5.1]
   def change
-    create_table :running_backs do |t|
+    create_table :tight_ends do |t|
       t.string :name
       t.string :search_name
       t.string :team

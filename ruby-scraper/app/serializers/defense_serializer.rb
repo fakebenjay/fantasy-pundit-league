@@ -1,3 +1,3 @@
 class DefenseSerializer < ActiveModel::Serializer
-  attributes :name, :position, :status, :opp, :week, :td, :int, :fr, :sck, :sfty, :blk, :pa, :points
+  attributes :name, :search_name, :position, :status, :opp, :week, :td, :int, :fr, :sck, :sfty, :blk, :pa, :points
 end

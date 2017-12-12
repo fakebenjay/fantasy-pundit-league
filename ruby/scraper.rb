@@ -1,5 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
+require 'json'
+require 'pry'
 
 def round_week(week)
   week = week.to_i
@@ -14,13 +16,25 @@ end
 
 def find_player(position, name, week)
   position_dir = {
-    "QB" => 0,
-    "RB" => 2,
-    "WR" => 4,
-    "TE" => 6,
-    "DST" => 16,
-    "K" => 17,
-    "FLEX" => 23
+    "qb" => 0,
+    "rb" => 2,
+    "wr" => 4,
+    "te" => 6,
+    "dst" => 16,
+    "k" => 17,
+    "flex" => 23
+  }
+
+  fullname_dir = {
+    "qb" => 'quarterbacks',
+    "rb1" => 'runningbacks',
+    "rb2" => 'runningbacks',
+    "wr1" => 'widereceivers',
+    "wr2" => 'widereceivers',
+    "te" => 'tightends',
+    "dst" => 'defenses',
+    "k" => 'kickers',
+    "flex" => 'flexes'
   }
 
   week = round_week(week)
@@ -32,7 +46,7 @@ def find_player(position, name, week)
   if position_dir[position] == 16
     player = {
       name: table[0].css('.flexpop')[0].text,
-      position: 'DST',
+      position: position,
       status: table[0].css('.gameStatusDiv').text,
       opp: table[0].css('.flexpop')[1].text,
       td: table[0].css('.playertableStat')[0].text.to_f,
@@ -48,7 +62,7 @@ def find_player(position, name, week)
     player = {
       name: table[0].css('.flexpop')[0].text,
       team: table[0].css('.playertablePlayerName')[0].text.split(" ")[2].split(" ")[0],
-      position: 'K',
+      position: position,
       status: table[0].css('.gameStatusDiv').text,
       opp: table[0].css('.flexpop')[2].text,
       thirty: table[0].css('.playertableStat')[0].text,
@@ -83,9 +97,28 @@ def find_player(position, name, week)
     }
   end
 
-  puts player
+  return player
 end
 
-find_player("QB", "Carson Wentz", 2)
-find_player("DST", "Lions", 6)
-find_player("K", "Stephen Gostkowski", 5)
+def runner
+  file = open("../js/lineups.json")
+  json = file.read
+  parsed = JSON.parse(json)
+
+  parsed.each do |pundit|
+    pundit.each do |k, v|
+      if k == "name"
+        pundit[k] = v
+      else
+        pundit[k].each do |lineup|
+          binding.pry
+        end
+        # key = "#{k}_score"
+        # binding.pry
+        # pundit[key] = find_player(position, name, week)
+      end
+    end
+  end
+end
+
+runner

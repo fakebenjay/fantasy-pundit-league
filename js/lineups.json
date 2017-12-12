@@ -1,0 +1,1892 @@
+[
+  {
+    "name":"Matthew Berry",
+    "week1":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Melvin Gordon",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Ted Ginn Jr",
+        "te":"Delanie Walker",
+        "flex":"Adam Thielen",
+        "dst":"Texans",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Paul Perkins",
+        "rb2":"Mark Ingram",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Allen Robinson",
+        "te":"Martellus Bennett",
+        "flex":"Eddie Lacy",
+        "dst":"Bears",
+        "k":"Aldrick Rosas"
+      }
+    },
+    "week2":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week3":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week4":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week5":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week6":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week7":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week8":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week9":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week10":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week11":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week12":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    },
+    "week13":{
+      "good":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Ty Montgomery",
+        "rb2":"Marshawn Lynch",
+        "wr1":"Brandin Cooks",
+        "wr2":"Golden Tate",
+        "te":"Charles Clay",
+        "flex":"Tyreek Hill",
+        "dst":"Chargers",
+        "k":"Justin Tucker"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Isaiah Crowell",
+        "rb2":"Frank Gore",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Dez Bryant",
+        "te":"Jack Doyle",
+        "flex":"Kelvin Benjamin",
+        "dst":"Patriots",
+        "k":"Stephen Hauschka"
+      }
+    }
+  },
+  {
+    "name":"Michael Fabiano",
+    "week1":{
+      "good":{
+        "qb":"Marcus Mariota",
+        "rb1":"Todd Gurley",
+        "rb2":"Dalvin Cook",
+        "wr1":"Michael Crabtree",
+        "wr2":"Pierre Garcon",
+        "te":"Zach Ertz",
+        "flex":"Kelvin Benjamin",
+        "dst":"Texans",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Eddie Lacy",
+        "rb2":"Mark Ingram",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Sammy Watkins",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week2":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week3":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week4":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week5":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week6":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week7":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week8":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week9":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week10":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week11":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week12":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week13":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Todd Gurley",
+        "wr1":"Doug Baldwin",
+        "wr2":"Larry Fitzgerald",
+        "te":"Kyle Rudolph",
+        "flex":"Tyreek Hill",
+        "dst":"Cardinals",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Tyrod Taylor",
+        "rb1":"Frank Gore",
+        "rb2":"Tarik Cohen",
+        "wr1":"Alshon Jeffery",
+        "wr2":"Sammy Watkins",
+        "te":"Jordan Reed",
+        "flex":"Pierre Garcon",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    }
+  },
+  {
+    "name":"Jamey Eisenberg",
+    "week1":{
+      "good":{
+        "qb":"Marcus Mariota",
+        "rb1":"C.J. Anderson",
+        "rb2":"Dalvin Cook",
+        "wr1":"Terrelle Pryor",
+        "wr2":"Martavis Bryant",
+        "te":"Delanie Walker",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Blair Walsh"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Joe Mixon",
+        "rb2":"Leonard Fournette",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Allen Robinson",
+        "te":"Martellus Bennett",
+        "flex":"Tyreek Hill",
+        "dst":"Chiefs",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week2":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week3":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week4":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week5":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week6":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week7":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week8":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week9":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week10":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week11":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week12":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    },
+    "week13":{
+      "good":{
+        "qb":"Derek Carr",
+        "rb1":"Ty Montgomery",
+        "rb2":"Lamar Miller",
+        "wr1":"Larry Fitzgerald",
+        "wr2":"Martavis Bryant",
+        "te":"Cameron Brate",
+        "flex":"Davante Adams",
+        "dst":"Buccaneers",
+        "k":"Giorgio Tavecchio"
+      },
+      "bad":{
+        "qb":"Matthew Stafford",
+        "rb1":"Carlos Hyde",
+        "rb2":"Rob Kelley",
+        "wr1":"T.Y. Hilton",
+        "wr2":"Brandon Marshall",
+        "te":"Jack Doyle",
+        "flex":"Dez Bryant",
+        "dst":"Vikings",
+        "k":"Dustin Hopkins"
+      }
+    }
+  },
+  {
+    "name":"Michael Beller",
+    "week1":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week2":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week3":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week4":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week5":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week6":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week7":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week8":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week9":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week10":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week11":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week12":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week13":{
+      "good":{
+        "qb":"Andy Dalton",
+        "rb1":"Theo Riddick",
+        "rb2":"Robert Kelley",
+        "wr1":"Mike Wallace",
+        "wr2":"Eric Decker",
+        "te":"Eric Ebron",
+        "flex":"Zay Jones",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Joe Mixon",
+        "rb2":"Bilal Powell",
+        "wr1":"Randall Cobb",
+        "wr2":"Jeremy Maclin",
+        "te":"Jason Witten",
+        "flex":"T.Y. Hilton",
+        "dst":"Vikings",
+        "k":"Adam Vinatieri"
+      }
+    }
+  },
+  {
+    "name":"Adam Rank",
+    "week1":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week2":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week3":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week4":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week5":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week6":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week7":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week8":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week9":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week10":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week11":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week12":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week13":{
+      "good":{
+        "qb":"Aaron Rodgers",
+        "rb1":"Marshawn Lynch",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Kelvin Benjamin",
+        "wr2":"Ted Ginn Jr",
+        "te":"Zach Ertz",
+        "flex":"Sammy Watkins",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Dak Prescott",
+        "rb1":"Melvin Gordon",
+        "rb2":"Adrian Peterson",
+        "wr1":"Allen Robinson",
+        "wr2":"Michael Thomas",
+        "te":"Eric Ebron",
+        "flex":"T.Y. Hilton",
+        "dst":"Giants",
+        "k":"Adam Vinatieri"
+      }
+    }
+  },
+  {
+    "name":"Vinnie Iyer",
+    "week1":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week2":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week3":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week4":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week5":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week6":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week7":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week8":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week9":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week10":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week11":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week12":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    },
+    "week13":{
+      "good":{
+        "qb":"Cam Newton",
+        "rb1":"C.J. Anderson",
+        "rb2":"Christian McCaffrey",
+        "wr1":"Stefon Diggs",
+        "wr2":"Michael Crabtree",
+        "te":"Delanie Walker",
+        "flex":"Kelvin Benjamin",
+        "dst":"Rams",
+        "k":"Dan Bailey"
+      },
+      "bad":{
+        "qb":"Ben Roethlisberger",
+        "rb1":"Eddie Lacy",
+        "rb2":"Jeremy Hill",
+        "wr1":"Allen Robinson",
+        "wr2":"T.Y. Hilton",
+        "te":"Eric Ebron",
+        "flex":"Keenan Allen",
+        "dst":"Seahawks",
+        "k":"Adam Vinatieri"
+      }
+    }
+  }
+]

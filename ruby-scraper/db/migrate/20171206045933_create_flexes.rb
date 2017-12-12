@@ -2,6 +2,7 @@ class CreateFlexes < ActiveRecord::Migration[5.1]
   def change
     create_table :flexes do |t|
       t.string :name
+      t.string :search_name
       t.string :team
       t.string :position
       t.string :status

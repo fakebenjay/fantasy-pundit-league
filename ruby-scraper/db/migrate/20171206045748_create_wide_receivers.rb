@@ -2,6 +2,7 @@ class CreateWideReceivers < ActiveRecord::Migration[5.1]
   def change
     create_table :wide_receivers do |t|
       t.string :name
+      t.string :search_name
       t.string :team
       t.string :position
       t.string :status

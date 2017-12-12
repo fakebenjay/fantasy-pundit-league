@@ -10,10 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171206050823) do
+ActiveRecord::Schema.define(version: 20171207124355) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "defenses", force: :cascade do |t|
     t.string "name"
+    t.string "search_name"
     t.string "position"
     t.string "status"
     t.string "opp"
@@ -32,6 +36,7 @@ ActiveRecord::Schema.define(version: 20171206050823) do
 
   create_table "flexes", force: :cascade do |t|
     t.string "name"
+    t.string "search_name"
     t.string "team"
     t.string "position"
     t.string "status"
@@ -58,6 +63,7 @@ ActiveRecord::Schema.define(version: 20171206050823) do
 
   create_table "kickers", force: :cascade do |t|
     t.string "name"
+    t.string "search_name"
     t.string "team"
     t.string "position"
     t.string "status"
@@ -75,6 +81,7 @@ ActiveRecord::Schema.define(version: 20171206050823) do
 
   create_table "quarterbacks", force: :cascade do |t|
     t.string "name"
+    t.string "search_name"
     t.string "team"
     t.string "position"
     t.string "status"
@@ -101,6 +108,34 @@ ActiveRecord::Schema.define(version: 20171206050823) do
 
   create_table "running_backs", force: :cascade do |t|
     t.string "name"
+    t.string "search_name"
+    t.string "team"
+    t.string "position"
+    t.string "status"
+    t.string "opp"
+    t.integer "week"
+    t.string "comp_att"
+    t.float "pass_yds"
+    t.float "pass_td"
+    t.float "int"
+    t.float "rush_att"
+    t.float "rush_yds"
+    t.float "rush_td"
+    t.float "rec"
+    t.float "rec_yds"
+    t.float "rec_td"
+    t.float "tar"
+    t.float "two_pc"
+    t.float "fuml"
+    t.float "misc_td"
+    t.float "points"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tight_ends", force: :cascade do |t|
+    t.string "name"
+    t.string "search_name"
     t.string "team"
     t.string "position"
     t.string "status"
@@ -127,6 +162,7 @@ ActiveRecord::Schema.define(version: 20171206050823) do
 
   create_table "wide_receivers", force: :cascade do |t|
     t.string "name"
+    t.string "search_name"
     t.string "team"
     t.string "position"
     t.string "status"

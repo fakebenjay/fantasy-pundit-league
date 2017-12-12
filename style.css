@@ -1,5 +1,9 @@
-div.card {
-  position: static;
+body {
+  font-family: 'Exo', sans-serif;
+}
+
+div.card, div.week-card {
+  position: relative;
   width: 100%;
   height: 100vh;
   left: 0;
@@ -24,8 +28,18 @@ th, td {
   padding: 1vh;
   text-align: center;
   border: 1px solid black;
+  background-color: white;
 }
 
 div.w-third {
   text-align: center;
 }
+
+/*div.fl > table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+}*/
