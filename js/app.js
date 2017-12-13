@@ -1,7 +1,4 @@
 $('document').ready(function() {
-  Object.keys(lineupWeek1).forEach((pundit) => {
-    debugger
-  })
   postTables()
 })
 

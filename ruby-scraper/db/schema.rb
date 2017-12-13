@@ -137,6 +137,7 @@ ActiveRecord::Schema.define(version: 20171212061849) do
     t.string "name"
     t.string "search_name"
     t.integer "week"
+    t.string "quality"
     t.string "qb_name"
     t.float "qb_score"
     t.string "rb1_name"

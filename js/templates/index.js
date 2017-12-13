@@ -4,6 +4,8 @@ function postTables() {
   var scores = $('#scores-template')
   var standings = $('#standings-template')
 
+  debugger
+
   for (card in weekDivs) {
     weekDivs[card].innerHTML += lineup
     weekDivs[card].innerHTML += scores
