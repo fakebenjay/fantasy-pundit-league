@@ -39,26 +39,26 @@ Dir.foreach('db/lineups').each do |file|
           week: week_num,
           quality: quality,
           qb_name: lineup['qb'],
-          qb_score: score('qb', lineup['qb'].downcase, week_num),
+          qb_points: score('qb', lineup['qb'].downcase, week_num),
           rb1_name: lineup['rb1'],
-          rb1_score: score('rb', lineup['rb1'].downcase, week_num),
+          rb1_points: score('rb', lineup['rb1'].downcase, week_num),
           rb2_name: lineup['rb2'],
-          rb2_score: score('rb', lineup['rb2'].downcase, week_num),
+          rb2_points: score('rb', lineup['rb2'].downcase, week_num),
           wr1_name: lineup['wr1'],
-          wr1_score: score('wr', lineup['wr1'].downcase, week_num),
+          wr1_points: score('wr', lineup['wr1'].downcase, week_num),
           wr2_name: lineup['wr2'],
-          wr2_score: score('wr', lineup['wr2'].downcase, week_num),
+          wr2_points: score('wr', lineup['wr2'].downcase, week_num),
           te_name: lineup['te'],
-          te_score: score('te', lineup['te'].downcase, week_num),
+          te_points: score('te', lineup['te'].downcase, week_num),
           flex_name: lineup['flex'],
-          flex_score: score('flex', lineup['flex'].downcase, week_num),
+          flex_points: score('flex', lineup['flex'].downcase, week_num),
           dst_name: lineup['dst'],
-          dst_score: score('dst', lineup['dst'].downcase, week_num),
+          dst_points: score('dst', lineup['dst'].downcase, week_num),
           k_name: lineup['k'],
-          k_score: score('k', lineup['k'].downcase, week_num),
+          k_points: score('k', lineup['k'].downcase, week_num),
         )
 
-        team.total_points = team.qb_score + team.rb1_score + team.rb2_score + team.wr1_score + team.wr2_score + team.te_score + team.flex_score + team.dst_score + team.k_score
+        team.total_points = team.qb_points + team.rb1_points + team.rb2_points + team.wr1_points + team.wr2_points + team.te_points + team.flex_points + team.dst_points + team.k_points
         team.total_points = team.total_points.round(1)
         print team.name
         print team.week

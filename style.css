@@ -1,5 +1,5 @@
 body {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 
 div.card, div.week-card {
@@ -33,6 +33,16 @@ th, td {
 
 div.w-third {
   text-align: center;
+}
+
+p.analysis {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
+
+td.team:hover {
+  background-color: #D3D3D3;
 }
 
 /*div.fl > table {

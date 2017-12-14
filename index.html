@@ -10,7 +10,7 @@
         <title>Fantasy Pundit League</title>
 
         <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mukta:300,400" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
 
         <!-- Your styles should be called here -->
@@ -24,9 +24,7 @@
     </head>
 
     <body>
-        <div class="card" id="title">
-          <a href="#week-1">1</a> | <a href="#week-2">2</a> | <a href="#week-3">3</a> | <a href="#week-4">4</a> | <a href="#week-5">5</a> | <a href="#week-6">6</a> | <a href="#week-7">7</a> | <a href="#week-8">8</a> | <a href="#week-9">9</a> | <a href="#week-10">10</a> | <a href="#week-11">11</a> | <a href="#week-12">12</a> | <a href="#week-13">13</a>
-        </div>
+        <div class="card" id="title"></div>
         <div class="week-card" id="week-1" style="background-color: blue"></div>
         <div class="week-card" id="week-2" style="background-color: green"></div>
         <div class="week-card" id="week-3" style="background-color: red"></div>
@@ -45,20 +43,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://rawgit.com/customd/jquery-visible/master/jquery.visible.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
-        <script src="lineups/week1.json"></script>
-        <script src="lineups/week2.json"></script>
-        <script src="lineups/week3.json"></script>
-        <script src="lineups/week4.json"></script>
-        <script src="lineups/week5.json"></script>
-        <script src="lineups/week6.json"></script>
-        <script src="lineups/week7.json"></script>
-        <script src="lineups/week8.json"></script>
-        <script src="lineups/week9.json"></script>
-        <script src="lineups/week10.json"></script>
-        <script src="lineups/week11.json"></script>
-        <script src="lineups/week12.json"></script>
-        <script src="lineups/week13.json"></script>
-        <script src="lineups/week14.json"></script>
+        <script src="js/wrapper.js"></script>
+        <script id="headings-template" type="text/x-lodash-template">
+          <br>
+          <h1><%= heading %></h1>
+          <div class="anchors"><a href="#week-1">1</a> | <a href="#week-2">2</a> | <a href="#week-3">3</a> | <a href="#week-4">4</a> | <a href="#week-5">5</a> | <a href="#week-6">6</a> | <a href="#week-7">7</a> | <a href="#week-8">8</a> | <a href="#week-9">9</a> | <a href="#week-10">10</a> | <a href="#week-11">11</a> | <a href="#week-12">12</a> | <a href="#week-13">13</a> | <a href="#week-14">14</a></div>
+          <br></br>
+        </script>
         <script id="standings-template" type="text/x-lodash-template">
           <div class="fl w-third">
             <table class="standings">
@@ -72,34 +63,34 @@
               </tbody>
               <tbody>
                 <tr class="team">
-                  <td class="name"><%= name1 %></td>
-                  <td class="avg-points"><%= avgPoints1 %></td>
-                  <td class="tot-points"><%= totPoints1 %></td>
+                  <td class="name first-name"><%= name1 %></td>
+                  <td class="avg-points first-avg"><%= avgPoints1 %></td>
+                  <td class="tot-points first-tot"><%= totPoints1 %></td>
                 </tr>
                 <tr class="team">
-                  <td class="name"><%= name2 %></td>
-                  <td class="avg-points"><%= avgPoints2 %></td>
-                  <td class="tot-points"><%= totPoints2 %></td>
+                  <td class="name second-name"><%= name2 %></td>
+                  <td class="avg-points second-avg"><%= avgPoints2 %></td>
+                  <td class="tot-points second-tot"><%= totPoints2 %></td>
                 </tr>
                 <tr class="team">
-                  <td class="name"><%= name3 %></td>
-                  <td class="avg-points"><%= avgPoints3 %></td>
-                  <td class="tot-points"><%= totPoints3 %></td>
+                  <td class="name third-name"><%= name3 %></td>
+                  <td class="avg-points third-avg"><%= avgPoints3 %></td>
+                  <td class="tot-points third-tot"><%= totPoints3 %></td>
                 </tr>
                 <tr class="team">
-                  <td class="name"><%= name4 %></td>
-                  <td class="avg-points"><%= avgPoints4 %></td>
-                  <td class="tot-points"><%= totPoints4 %></td>
+                  <td class="name fourth-name"><%= name4 %></td>
+                  <td class="avg-points fourth-avg"><%= avgPoints4 %></td>
+                  <td class="tot-points fourth-tot"><%= totPoints4 %></td>
                 </tr>
                 <tr class="team">
-                  <td class="name"><%= name5 %></td>
-                  <td class="avg-points"><%= avgPoints5 %></td>
-                  <td class="tot-points"><%= totPoints5 %></td>
+                  <td class="name fifth-name"><%= name5 %></td>
+                  <td class="avg-points fifth-avg"><%= avgPoints5 %></td>
+                  <td class="tot-points fifth-tot"><%= totPoints5 %></td>
                 </tr>
                 <tr class="team">
-                  <td class="name"><%= name6 %></td>
-                  <td class="avg-points"><%= avgPoints6 %></td>
-                  <td class="tot-points"><%= totPoints6 %></td>
+                  <td class="name sixth-avg"><%= name6 %></td>
+                  <td class="avg-points sixth-name"><%= avgPoints6 %></td>
+                  <td class="tot-points sixth-tot"><%= totPoints6 %></td>
                 </tr>
               </tbody>
             </table>
@@ -108,58 +99,58 @@
         <script id="lineup-template" type="text/x-lodash-template">
           <div class="fl w-third">
             <table class="lineup">
-              <th colspan="3" class="team-name">Matthew Berry</th>
+              <th colspan="3" class="team-name"><%= pundit %></th>
               <tbody>
                 <tr class="player">
                   <td class="position">QB</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name qb-name"><%= qbName %></td>
+                  <td class="points qb-points"><%= qbPoints %></td>
                 </tr>
                 <tr class="player">
                   <td class="position">RB</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name rb1-name"><%= rb1Name %></td>
+                  <td class="points rb1-points"><%= rb1Points %></td>
                 </tr>
                 <tr class="player">
                   <td class="position">RB</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name rb2-name"><%= rb2Name %></td>
+                  <td class="points rb2-points"><%= rb2Points %></td>
                 </tr>
                 <tr class="player">
                   <td class="position">WR</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name wr1-name"><%= wr1Name %></td>
+                  <td class="points wr1-points"><%= wr1Points %></td>
                 </tr>
                 <tr class="player">
                   <td class="position">WR</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name wr2-name"><%= wr2Name %></td>
+                  <td class="points wr2-points"><%= wr2Points %></td>
                 </tr>
                 <tr class="player">
                   <td class="position">TE</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name te-name"><%= teName %></td>
+                  <td class="points te-points"><%= tePoints %></td>
                 </tr>
                 <tr class="player">
                   <td class="position">FLEX</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name flex-name"><%= flexName %></td>
+                  <td class="points flex-points"><%= flexPoints %></td>
                 </tr>
                 <tr class="player">
                   <td class="position">D/ST</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name dst-name"><%= dstName %></td>
+                  <td class="points dst-points"><%= dstPoints %></td>
                 </tr>
                 <tr class="player">
                   <td class="position">K</td>
-                  <td class="name">NAME</td>
-                  <td class="points">Points</td>
+                  <td class="name k-name"><%= kName %></td>
+                  <td class="points k-points"><%= kPoints %></td>
                 </tr>
               </tbody>
               <tbody class="total">
                 <tr>
                   <td class="position" colspan="2">TOTAL</td>
-                  <td class="points">Points</td>
+                  <td class="points total-points"><%= totalPoints %></td>
                 </tr>
               </tbody>
             </table>
@@ -167,42 +158,45 @@
         </script>
         <script id="scores-template" type="text/x-lodash-template">
           <div class="fl w-third">
-            <table>
+            <table class="good-teams">
               <th colspan="4">Good Teams</th>
               <tr class="matchup">
-                <td class="team">Matthew Berry</td><td class="points">0</td>
-                <td class="team">Jamey Eisenberg</td><td class="points">0</td>
+                <td class="team">Matthew Berry</td><td class="points berry-good"><%= berryGoodPoints %></td>
+                <td class="team">Jamey Eisenberg</td><td class="points eisenberg-good"><%= eisenbergGoodPoints %></td>
               </tr>
               <tr class="matchup">
-                <td class="team">Michael Beller</td><td class="points">0</td>
-                <td class="team">Adam Rank</td><td class="points">0</td>
+                <td class="team">Michael Beller</td><td class="points beller-good"><%= bellerGoodPoints %></td>
+                <td class="team">Adam Rank</td><td class="points rank-good"><%= rankGoodPoints %></td>
               </tr>
               <tr class="matchup">
-                <td class="team">Michael Fabiano</td><td class="points">0</td>
-                <td class="team">Vinnie Iyer</td><td class="points">0</td>
+                <td class="team">Michael Fabiano</td><td class="points fabiano-good"><%= fabianoGoodPoints %></td>
+                <td class="team">Vinnie Iyer</td><td class="points iyer-good"><%= iyerGoodPoints %></td>
               </tr>
             </table>
             <br></br>
-            <table>
+            <table class="bad-teams">
               <th colspan="4">Bad Teams</th>
               <tr class="matchup">
-                <td class="team">Matthew Berry</td><td class="points">0</td>
-                <td class="team">Jamey Eisenberg</td><td class="points">0</td>
+                <td class="team">Matthew Berry</td><td class="points berry-bad"><%= berryBadPoints %></td>
+                <td class="team">Jamey Eisenberg</td><td class="points eisenberg-bad"><%= eisenbergBadPoints %></td>
               </tr>
               <tr class="matchup">
-                <td class="team">Michael Beller</td><td class="points">0</td>
-                <td class="team">Adam Rank</td><td class="points">0</td>
+                <td class="team">Michael Beller</td><td class="points beller-bad"><%= bellerBadPoints %></td>
+                <td class="team">Adam Rank</td><td class="points rank-bad"><%= rankBadPoints %></td>
               </tr>
               <tr class="matchup">
-                <td class="team">Michael Fabiano</td><td class="points">0</td>
-                <td class="team">Vinnie Iyer</td><td class="points">0</td>
+                <td class="team">Michael Fabiano</td><td class="points fabiano-bad"><%= fabianoBadPoints %></td>
+                <td class="team">Vinnie Iyer</td><td class="points iyer-bad"><%= iyerBadPoints %></td>
               </tr>
             </table>
           </div>
         </script>
-        <script src="js/smooth-scroll.js"></script>
-        <script src="js/templates/index.js"></script>
-        <script src="lineups/lineup-vars.js"></script>
+        <script id="analysis-template" type="text/x-lodash-template">
+          <div class="fl w-third">
+            <p class="analysis"><%= content %></p>
+          </div>
+        </script>
+        <script src="js/templates.js"></script>
         <script src="js/app.js"></script>
         <!-- Your javascript should be called here -->
     </body>
