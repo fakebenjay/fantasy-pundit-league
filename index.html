@@ -24,80 +24,37 @@
     </head>
 
     <body>
-        <div class="card" id="title"></div>
-        <div class="week-card" id="week-1" style="background-color: blue"></div>
-        <div class="week-card" id="week-2" style="background-color: green"></div>
-        <div class="week-card" id="week-3" style="background-color: red"></div>
-        <div class="week-card" id="week-4" style="background-color: blue"></div>
-        <div class="week-card" id="week-5" style="background-color: green"></div>
-        <div class="week-card" id="week-6" style="background-color: red"></div>
-        <div class="week-card" id="week-7" style="background-color: blue"></div>
-        <div class="week-card" id="week-8" style="background-color: green"></div>
-        <div class="week-card" id="week-9" style="background-color: red"></div>
-        <div class="week-card" id="week-10" style="background-color: blue"></div>
-        <div class="week-card" id="week-11" style="background-color: green"></div>
-        <div class="week-card" id="week-12" style="background-color: red"></div>
-        <div class="week-card" id="week-13" style="background-color: blue"></div>
-        <div class="week-card" id="week-14" style="background-color: green"></div>
+        <div class="card w-100 pv3 f6 ph3 ph4-ns" id="title"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-1" style="background-color: blue"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-2" style="background-color: green"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-3" style="background-color: red"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-4" style="background-color: blue"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-5" style="background-color: green"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-6" style="background-color: red"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-7" style="background-color: blue"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-8" style="background-color: green"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-9" style="background-color: red"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-10" style="background-color: blue"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-11" style="background-color: green"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-12" style="background-color: red"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-13" style="background-color: blue"></div>
+        <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-14" style="background-color: green"></div>
+        <div class="card w-100 pv3 f6 ph3 ph4-ns cf" id="standings"></div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://rawgit.com/customd/jquery-visible/master/jquery.visible.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="js/helpers/decimal-round.js"></script>
         <script src="js/wrapper.js"></script>
         <script id="headings-template" type="text/x-lodash-template">
           <br>
           <h1><%= heading %></h1>
-          <div class="anchors"><a href="#week-1">1</a> | <a href="#week-2">2</a> | <a href="#week-3">3</a> | <a href="#week-4">4</a> | <a href="#week-5">5</a> | <a href="#week-6">6</a> | <a href="#week-7">7</a> | <a href="#week-8">8</a> | <a href="#week-9">9</a> | <a href="#week-10">10</a> | <a href="#week-11">11</a> | <a href="#week-12">12</a> | <a href="#week-13">13</a> | <a href="#week-14">14</a></div>
+          <div class="anchors"><a href="#week-1">1</a> | <a href="#week-2">2</a> | <a href="#week-3">3</a> | <a href="#week-4">4</a> | <a href="#week-5">5</a> | <a href="#week-6">6</a> | <a href="#week-7">7</a> | <a href="#week-8">8</a> | <a href="#week-9">9</a> | <a href="#week-10">10</a> | <a href="#week-11">11</a> | <a href="#week-12">12</a> | <a href="#week-13">13</a> | <a href="#week-14">14</a> | <a href="#standings">Standings</a></div>
           <br></br>
         </script>
-        <script id="standings-template" type="text/x-lodash-template">
-          <div class="fl w-third">
-            <table class="standings">
-              <th colspan="3">Standings</th>
-              <tbody>
-                <tr class="standing-header">
-                  <td>Name</td>
-                  <td>Average Points</td>
-                  <td>Total Points</td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr class="team">
-                  <td class="name first-name"><%= name1 %></td>
-                  <td class="avg-points first-avg"><%= avgPoints1 %></td>
-                  <td class="tot-points first-tot"><%= totPoints1 %></td>
-                </tr>
-                <tr class="team">
-                  <td class="name second-name"><%= name2 %></td>
-                  <td class="avg-points second-avg"><%= avgPoints2 %></td>
-                  <td class="tot-points second-tot"><%= totPoints2 %></td>
-                </tr>
-                <tr class="team">
-                  <td class="name third-name"><%= name3 %></td>
-                  <td class="avg-points third-avg"><%= avgPoints3 %></td>
-                  <td class="tot-points third-tot"><%= totPoints3 %></td>
-                </tr>
-                <tr class="team">
-                  <td class="name fourth-name"><%= name4 %></td>
-                  <td class="avg-points fourth-avg"><%= avgPoints4 %></td>
-                  <td class="tot-points fourth-tot"><%= totPoints4 %></td>
-                </tr>
-                <tr class="team">
-                  <td class="name fifth-name"><%= name5 %></td>
-                  <td class="avg-points fifth-avg"><%= avgPoints5 %></td>
-                  <td class="tot-points fifth-tot"><%= totPoints5 %></td>
-                </tr>
-                <tr class="team">
-                  <td class="name sixth-avg"><%= name6 %></td>
-                  <td class="avg-points sixth-name"><%= avgPoints6 %></td>
-                  <td class="tot-points sixth-tot"><%= totPoints6 %></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </script>
         <script id="lineup-template" type="text/x-lodash-template">
-          <div class="fl w-third">
+          <div class="fl w-100 w-third-ns pa2">
             <table class="lineup">
               <th colspan="3" class="team-name"><%= pundit %></th>
               <tbody>
@@ -157,7 +114,7 @@
           </div>
         </script>
         <script id="scores-template" type="text/x-lodash-template">
-          <div class="fl w-third">
+          <div class="fl w-100 w-third-ns pa2">
             <table class="good-teams">
               <th colspan="4">Good Teams</th>
               <tr class="matchup">
@@ -185,18 +142,66 @@
                 <td class="team">Adam Rank</td><td class="points rank-bad"><%= rankBadPoints %></td>
               </tr>
               <tr class="matchup">
-                <td class="team">Michael Fabiano</td><td class="points fabiano-bad"><%= fabianoBadPoints %></td>
-                <td class="team">Vinnie Iyer</td><td class="points iyer-bad"><%= iyerBadPoints %></td>
+                <td class="team">Michael Fabiano</td><td class="points fabiano-bad"><%= fabianoBadPoints %></td></div>
+                <td class="team">Vinnie Iyer</td><td class="points iyer-bad"><%= iyerBadPoints %></td></div>
               </tr>
             </table>
           </div>
         </script>
         <script id="analysis-template" type="text/x-lodash-template">
-          <div class="fl w-third">
+          <div class="fl w-100 w-third-ns pa2">
             <p class="analysis"><%= content %></p>
           </div>
         </script>
+        <script id="standings-template" type="text/x-lodash-template">
+          <div class="fl w-100 tc">
+            <table class="standings">
+              <th colspan="3">Standings</th>
+              <tbody>
+                <tr class="standing-header">
+                  <td>Name</td>
+                  <td>Average Points</td>
+                  <td>Total Points</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="team">
+                  <td class="name first-name"><%= name1 %></td>
+                  <td class="avg-points first-avg"><%= avgPoints1 %></td>
+                  <td class="tot-points first-tot"><%= totPoints1 %></td>
+                </tr>
+                <tr class="team">
+                  <td class="name second-name"><%= name2 %></td>
+                  <td class="avg-points second-avg"><%= avgPoints2 %></td>
+                  <td class="tot-points second-tot"><%= totPoints2 %></td>
+                </tr>
+                <tr class="team">
+                  <td class="name third-name"><%= name3 %></td>
+                  <td class="avg-points third-avg"><%= avgPoints3 %></td>
+                  <td class="tot-points third-tot"><%= totPoints3 %></td>
+                </tr>
+                <tr class="team">
+                  <td class="name fourth-name"><%= name4 %></td>
+                  <td class="avg-points fourth-avg"><%= avgPoints4 %></td>
+                  <td class="tot-points fourth-tot"><%= totPoints4 %></td>
+                </tr>
+                <tr class="team">
+                  <td class="name fifth-name"><%= name5 %></td>
+                  <td class="avg-points fifth-avg"><%= avgPoints5 %></td>
+                  <td class="tot-points fifth-tot"><%= totPoints5 %></td>
+                </tr>
+                <tr class="team">
+                  <td class="name sixth-avg"><%= name6 %></td>
+                  <td class="avg-points sixth-name"><%= avgPoints6 %></td>
+                  <td class="tot-points sixth-tot"><%= totPoints6 %></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </script>
         <script src="js/templates.js"></script>
+        <script src="js/standings-template.js"></script>
+        <!-- Will re-attempt D3 chart later<script src="js/line-graph.js"></script> -->
         <script src="js/app.js"></script>
         <!-- Your javascript should be called here -->
     </body>

@@ -1,3 +1,20 @@
+function postHeadings() {
+  var headingsTemplate = $('#headings-template').html()
+  var templateFn = _.template(headingsTemplate)
+
+  var headlineHTML = templateFn({'heading': "Fantasy Pundit Football League (FPFL)"})
+  var standingsHTML = templateFn({'heading': "Standings"})
+
+  var weekDivs = $('.week-card')
+
+  $('#title').html(headlineHTML)
+  $('#standings').html(standingsHTML)
+
+  for (let i=0; i<weekDivs.length; i++) {
+    weekDivs[i].innerHTML += templateFn({'heading': weekDivs[i].id.replace('-', ' ').replace('w', 'W')})
+  }
+}
+
 function postLineup(pundit, quality) {
   var lineupTemplate = $('#lineup-template').html()
   var templateFn = _.template(lineupTemplate)
@@ -94,21 +111,6 @@ function postScores() {
   }
 }
 
-function postHeadings() {
-  var headingsTemplate = $('#headings-template').html()
-  var templateFn = _.template(headingsTemplate)
-
-  var headlineHTML = templateFn({'heading': "Fantasy Pundit Football League (FPFL)"})
-
-  var weekDivs = $('.week-card')
-
-  $('#title').html(headlineHTML)
-
-  for (let i=0; i<weekDivs.length; i++) {
-    weekDivs[i].innerHTML += templateFn({'heading': weekDivs[i].id.replace('-', ' ').replace('w', 'W')})
-  }
-}
-
 function postAnalysis() {
   var analysisTemplate = $('#analysis-template').html()
   var templateFn = _.template(analysisTemplate)
@@ -118,26 +120,6 @@ function postAnalysis() {
 
   for (let i=0; i<weekDivs.length; i++) {
     weekDivs[i].innerHTML += templateHTML
-  }
-}
-
-function postStandings() {
-  var standingsTemplate = $('#standings-template').html()
-  var templateFn = _.template(standingsTemplate)
-
-  var weekDivs = $('.week-card')
-
-  var punditClasses = ['.berry-good', '.eisenberg-good', '.beller-good', '.rank-good', '.fabiano-good', '.iyer-good']
-
-  for (let i=1; i <= weekDivs.length; i++) {
-    for (let p=0; p<punditClasses.length; p++) {
-      var tally = 0
-      var name = $(punditClasses[p])[0].previousSibling.innerText
-      for (let w=0; w<weekDivs.find(punditClasses[p]).slice(0, i).length; w++) {
-        tally += parseFloat(weekDivs.find(punditClasses[p]).slice(0, i)[w].innerText)
-      }
-    }
-    var templateHTML = templateFn({})
   }
 }
 
