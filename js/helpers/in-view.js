@@ -17,7 +17,7 @@ function isInView(el) {
 
 function loadStandingsView() {
   var standingsDiv = $('#standings')
-  if (isInView(standingsDiv)) {
+  if (isInView(standingsDiv) && standingsDiv.children().length <= 5) {
     postStandings()
   }
 }
