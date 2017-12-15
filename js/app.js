@@ -1,5 +1,6 @@
 $('document').ready(function() {
   postHeadings()
+  postGraf()
   postLineup('matthew berry', 'good')
   postScores()
   postAnalysis()
