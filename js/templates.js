@@ -28,7 +28,7 @@ function postGraf() {
     'p6': "How will the season go? Which ACLs will falter and which ones will endure? Let's find out!"
   })
 
-  $('#title').html() += grafHTML
+  $('#title')[0].innerHTML += grafHTML
 }
 
 function postLineup(pundit, quality) {
