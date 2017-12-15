@@ -11,6 +11,7 @@ div.card, div.week-card {
   text-align: center;
   overflow: auto;
   display: table;
+  color: white;
 }
 
 h1 {
