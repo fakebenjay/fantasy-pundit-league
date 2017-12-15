@@ -16,7 +16,7 @@ function isInView(el) {
 }
 
 function loadStandingsView() {
-  var standingsDiv = document.getElementById('standings')
+  var standingsDiv = $('#standings')
   if (isInView(standingsDiv)) {
     postStandings()
   }
