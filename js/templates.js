@@ -22,10 +22,13 @@ function postGraf() {
   var grafHTML = templateFn({
     'p1': "According to the <a href='https://fsta.org/press-release-fantasy-sports-now-a-7-billion-industry/'>Fantasy Sports Trade Association</a>, fantasy sports are a $7 billion industry. Fantasy football is also a major driver of fan interest in the NFL, which makes its popularity increasingly important for the future success of the league and its broadcast partners.",
     'p2': "In September 2015, <a href='https://deadspin.com/espn-gets-a-ridiculous-amount-of-traffic-from-fantasy-f-1737780671'>seven of ESPN.com's top 10 articles were routine fantasy football analysis posts</a>. And that interest makes sense: people bet large sums of money on fantasy sports, and often compete bitterly against close friends.",
-    'p3': "But as anyone who has ever suffered a shock loss can tell you, fantasy sports are inherently somewhat of a crapshoot. Stud players periodically have inexplicably bad weeks, and middling players put up 30 points from time to time.",
+    'p3': "But as anyone who has ever suffered a shock loss can tell you, fantasy sports are inherently somewhat of a crapshoot. Stud players periodically have inexplicably bad weeks, and middling players put up 20 points from time to time.",
     'p4': "All of this begs the question: how good are the analysts who play and dissect fantasy football for a living? We decided to find out.",
     'p5': "For the duration of the season, we're pitting six fantasy analysts against each other in a mock league: Matthew Berry (ESPN), Jamey Eisenberg (CBS), Michael Fabiano (NFL), Adam Rank (NFL), Vinnie Iyer (Sporting News, aggregated on Yahoo) and Michael Beller (SI). Each team's weekly lineup is based off of each analyst's weekly Start/Sit post, usually published each week around Wednesday or Thursday.",
-    'p6': "How will the season go? Which ACLs will falter and which ones will endure? Let's find out!"
+    'p6': "We're pitting their best picks against each other, as well as their players to avoid. Have you ever regretted benching Carson Wentz? So has Matthew Berry, probably!"
+    'p7': "How will the season go? Which ACLs will falter and which ones will endure? Let's find out!",
+    'p8': "Scroll down or hit the links above to view a particular week's scores or the season's standings."
+    'p9': "To toggle between each team's lineup, just click the pundits' names on the scoreboard."
   })
 
   $('#title')[0].innerHTML += grafHTML
