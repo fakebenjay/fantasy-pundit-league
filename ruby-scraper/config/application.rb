@@ -12,8 +12,7 @@ module RubyScraper
     config.load_defaults 5.1
 
     config.action_dispatch.default_headers = {
-      'Access-Control-Allow-Origin' => 'http://benjayingly.com/fantasy-pundit-league/',
-      'Access-Control-Allow-Origin' => 'http://localhost:8000/',
+      'Access-Control-Allow-Origin' => 'http://benjayingly.com',
       'Access-Control-Request-Method' => %w{GET POST OPTIONS}.join(",")
     }
 
