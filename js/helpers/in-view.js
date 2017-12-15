@@ -21,3 +21,7 @@ function loadStandingsView() {
     postStandings()
   }
 }
+
+$(window).on("scroll", function () {
+  loadStandingsView()
+});
