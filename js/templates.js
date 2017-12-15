@@ -7,7 +7,7 @@ function postHeadings() {
 
   var weekDivs = $('.week-card')
 
-  $('#title').preprend(headlineHTML)
+  $('#title').html().insertAdjacentHTML("afterbegin", headlineHTML)
   $('#standings').html(standingsHTML)
 
   for (let i=0; i<weekDivs.length; i++) {
