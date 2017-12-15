@@ -25,9 +25,9 @@ function postGraf() {
     'p3': "But as anyone who has ever suffered a shock loss can tell you, fantasy sports are inherently somewhat of a crapshoot. Stud players periodically have inexplicably bad weeks, and middling players put up 20 points from time to time.",
     'p4': "All of this begs the question: how good are the analysts who play and dissect fantasy football for a living? We decided to find out.",
     'p5': "For the duration of the season, we're pitting six fantasy analysts against each other in a mock league: Matthew Berry (ESPN), Jamey Eisenberg (CBS), Michael Fabiano (NFL), Adam Rank (NFL), Vinnie Iyer (Sporting News, aggregated on Yahoo) and Michael Beller (SI). Each team's weekly lineup is based off of each analyst's weekly Start/Sit post, usually published each week around Wednesday or Thursday.",
-    'p6': "We're pitting their best picks against each other, as well as their players to avoid. Have you ever regretted benching Carson Wentz? So has Matthew Berry, probably!"
+    'p6': "We're pitting their best picks against each other, as well as their players to avoid. Have you ever regretted benching Carson Wentz? So has Matthew Berry, probably!",
     'p7': "How will the season go? Which ACLs will falter and which ones will endure? Let's find out!",
-    'p8': "Scroll down or hit the links above to view a particular week's scores or the season's standings."
+    'p8': "Scroll down or hit the links above to view a particular week's scores or the season's standings.",
     'p9': "To toggle between each team's lineup, just click the pundits' names on the scoreboard."
   })
 
