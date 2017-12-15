@@ -5,6 +5,7 @@ $('document').ready(function() {
   postScores()
   postAnalysis()
   smoothScroll()
+  loadStandingsView()
 
   $('td.team').click(function(e) {
     postLineup(e.target.innerText.toLowerCase(), e.target.nextSibling.className.split('-')[1])
