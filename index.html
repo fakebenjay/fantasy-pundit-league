@@ -24,14 +24,7 @@
     </head>
 
     <body>
-        <div class="card w-100 pv3 f6 ph3 ph4-ns" id="title">
-          <p>According to the <a href="https://fsta.org/press-release-fantasy-sports-now-a-7-billion-industry/">Fantasy Sports Trade Association</a>, fantasy sports are a $7 billion industry. Fantasy football is also a major driver of fan interest in the NFL, which makes its popularity increasingly important for the future success of the league and its broadcast partners.</p>
-          <p>In September 2015, <a href="https://deadspin.com/espn-gets-a-ridiculous-amount-of-traffic-from-fantasy-f-1737780671">seven of ESPN.com's top 10 articles were routine fantasy football analysis posts</a>. And that interest makes sense: people bet large sums of money on fantasy sports, and often compete bitterly against close friends.</p>
-          <p>But as anyone who has ever suffered a shock loss can tell you, fantasy sports are inherently somewhat of a crapshoot. Stud players periodically have inexplicably bad weeks, and middling players put up 30 points from time to time.</p>
-          <p>All of this begs the question: how good are the analysts who play and dissect fantasy football for a living? We decided to find out.</p>
-          <p>For the duration of the season, we're pitting six fantasy analysts against each other in a mock league: Matthew Berry (ESPN), Jamey Eisenberg (CBS), Michael Fabiano (NFL), Adam Rank (NFL), Vinnie Iyer (Sporting News, aggregated on Yahoo) and Michael Beller (SI). Each team's weekly lineup is based off of each analyst's weekly Start/Sit post, usually published each week around Wednesday or Thursday.</p>
-          <p>How will the season go? Which ACLs will falter and which ones will endure? Let's find out!</p>
-        </div>
+        <div class="card w-100 pv3 f6 ph3 ph4-ns" id="title"></div>
         <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-1" style="background-color: blue"></div>
         <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-2" style="background-color: green"></div>
         <div class="week-card w-100 pv3 f6 ph3 ph4-ns" id="week-3" style="background-color: red"></div>
@@ -60,6 +53,14 @@
           <h1><%= heading %></h1>
           <div class="anchors"><a href="#week-1">1</a> | <a href="#week-2">2</a> | <a href="#week-3">3</a> | <a href="#week-4">4</a> | <a href="#week-5">5</a> | <a href="#week-6">6</a> | <a href="#week-7">7</a> | <a href="#week-8">8</a> | <a href="#week-9">9</a> | <a href="#week-10">10</a> | <a href="#week-11">11</a> | <a href="#week-12">12</a> | <a href="#week-13">13</a> | <a href="#week-14">14</a> | <a href="#standings">Standings</a></div>
           <br></br>
+        </script>
+        <script id="graf-template" type="text/x-lodash-template">
+          <p><%= p1 %></p>
+          <p><%= p2 %></p>
+          <p><%= p3 %></p>
+          <p><%= p4 %></p>
+          <p><%= p5 %></p>
+          <p><%= p6 %></p>
         </script>
         <script id="lineup-template" type="text/x-lodash-template">
           <div class="fl w-100 w-third-ns pa2">
