@@ -41,26 +41,26 @@ function postLineup(pundit, quality) {
   var weekDivs = $('.week-card')
 
   var templateHTML = templateFn({
-    'pundit': '',
-    'qbName': '',
-    'qbPoints': '',
-    'rb1Name': '',
-    'rb1Points': '',
-    'rb2Name': '',
-    'rb2Points': '',
-    'wr1Name': '',
-    'wr1Points': '',
-    'wr2Name': '',
-    'wr2Points': '',
-    'teName': '',
-    'tePoints': '',
-    'flexName': '',
-    'flexPoints': '',
-    'dstName': '',
-    'dstPoints': '',
-    'kName': '',
-    'kPoints': '',
-    'totalPoints': ''
+    'pundit': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'qbName': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'qbPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'rb1Name': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'rb1Points': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'rb2Name': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'rb2Points': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'wr1Name': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'wr1Points': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'wr2Name': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'wr2Points': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'teName': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'tePoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'flexName': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'flexPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'dstName': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'dstPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'kName': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'kPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'totalPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>"
   })
 
   for (let i=1; i <= weekDivs.length; i++) {
@@ -100,18 +100,18 @@ function postScores() {
   var weekDivs = $('.week-card')
 
   var templateHTML = templateFn({
-    'berryGoodPoints': '',
-    'eisenbergGoodPoints': '',
-    'bellerGoodPoints': '',
-    'rankGoodPoints': '',
-    'fabianoGoodPoints': '',
-    'iyerGoodPoints': '',
-    'berryBadPoints': '',
-    'eisenbergBadPoints': '',
-    'bellerBadPoints': '',
-    'rankBadPoints': '',
-    'fabianoBadPoints': '',
-    'iyerBadPoints': ''
+    'berryGoodPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'eisenbergGoodPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'bellerGoodPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'rankGoodPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'fabianoGoodPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'iyerGoodPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'berryBadPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'eisenbergBadPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'bellerBadPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'rankBadPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'fabianoBadPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>",
+    'iyerBadPoints': "<img src='loading.gif' alt='loading' width='12' height='12'>"
   })
 
   for (let i=1; i <= weekDivs.length; i++) {
