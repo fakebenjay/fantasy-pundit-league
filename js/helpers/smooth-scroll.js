@@ -1,5 +1,5 @@
 function smoothScroll() {
-  $("a").on('click', function(event) {
+  $('body').on('click', 'a', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {

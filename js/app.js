@@ -4,8 +4,8 @@ $('document').ready(function() {
   postLineup('matthew berry', 'good')
   postScores()
   postAnalysis()
-  loadStandingsView()
   smoothScroll()
+  loadStandingsView()
 
   $('td.team').click(function(e) {
     postLineup(e.target.innerText.toLowerCase(), e.target.nextSibling.className.split('-')[1])
@@ -15,7 +15,6 @@ $('document').ready(function() {
     e.preventDefault
     if ($('#standings').children().length <= 5) {
       postStandings()
-      smoothScroll()
       // loadGraph()
     }
   })
