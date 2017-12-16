@@ -4,8 +4,8 @@ $('document').ready(function() {
   postLineup('matthew berry', 'good')
   postScores()
   postAnalysis()
-  smoothScroll()
   loadStandingsView()
+  smoothScroll()
 
   $('td.team').click(function(e) {
     postLineup(e.target.innerText.toLowerCase(), e.target.nextSibling.className.split('-')[1])
