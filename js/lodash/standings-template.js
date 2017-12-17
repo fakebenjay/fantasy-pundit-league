@@ -23,28 +23,6 @@ function postStandings() {
     'totPoints6': "<img src='loading.gif' alt='loading' width='12' height='12'>",
   })
 
-  // var standingsChart = templateFn({
-  //   'name1': Object.keys(array[0])[0],
-  //   'avgPoints1': Math.round10(array[0][Object.keys(array[0])]/weekDivs.length, -1),
-  //   'totPoints1': array[0][Object.keys(array[0])],
-  //   'name2': Object.keys(array[1])[0],
-  //   'avgPoints2': Math.round10(array[1][Object.keys(array[1])]/weekDivs.length, -1),
-  //   'totPoints2': array[1][Object.keys(array[1])],
-  //   'name3': Object.keys(array[2])[0],
-  //   'avgPoints3': Math.round10(array[2][Object.keys(array[2])]/weekDivs.length, -1),
-  //   'totPoints3': array[2][Object.keys(array[2])],
-  //   'name4': Object.keys(array[3])[0],
-  //   'avgPoints4': Math.round10(array[3][Object.keys(array[3])]/weekDivs.length, -1),
-  //   'totPoints4': array[3][Object.keys(array[3])],
-  //   'name5': Object.keys(array[4])[0],
-  //   'avgPoints5': Math.round10(array[4][Object.keys(array[4])]/weekDivs.length, -1),
-  //   'totPoints5': array[4][Object.keys(array[4])],
-  //   'name6': Object.keys(array[5])[0],
-  //   'avgPoints6': Math.round10(array[5][Object.keys(array[5])]/weekDivs.length, -1),
-  //   'totPoints6': array[5][Object.keys(array[5])],
-  // })
-  //
-
   document.getElementById('standings').innerHTML += standingsChart
 }
 

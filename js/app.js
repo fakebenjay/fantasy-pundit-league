@@ -6,6 +6,7 @@ $('document').ready(function() {
   postAnalysis()
   smoothScroll()
   postStandings()
+  fillScores()
 
   $('td.team').click(function(e) {
     postLineup(e.target.innerText.toLowerCase(), e.target.nextSibling.className.split('-')[1])
@@ -13,9 +14,9 @@ $('document').ready(function() {
 
   $("[href='#standings']").click(function(e) {
     e.preventDefault
-    if ($('#standings').children().length <= 5) {
+    if ($('#standings').children().length <= 6) {
       fillStandings()
-      // loadGraph()
+      loadGraph()
     }
   })
 })
